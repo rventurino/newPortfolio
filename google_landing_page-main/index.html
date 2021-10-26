@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Copy: New Tab</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <ul id="nav-links">
+          <li class="text"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a></li>
+          <li class="text"><a href="https://www.google.com/imghp?hl=en&tab=ri&ogbl">Images</a></li>
+          
+          <li class="spec-button">
+            <button id="google-apps">
+              <div class="container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+          </li>
+          <li class="spec-button"><button id="google-account">r</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="main-content">
+        <div class="main-group">
+          <div id="logo" class="white">
+            <div id="logo-inner" class="default-logo white">
+              <h1 id="g">G</h1>
+              <h1 id="o">o</h1>
+              <h1 id="o2">o</h1>
+              <h1 id="g2">g</h1>
+              <h1 id="l">l</h1>
+              <h1 id="e">e</h1>
+            </div>
+          </div>
+          <div class="search">
+            <div id="bar" class="dropShadow">
+              <input
+                type="text"
+                id="search-bar-textarea"
+                class="searchTerm"
+                placeholder="What are you looking for?"
+              />
+              <button type="submit" class="voiceSearch">
+                <img
+                  id="microphone"
+                  src="img/Google_microphone_logo.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+
+          <button id="addShortcut">
+            <div class="plus-icon">
+              <i class="fas fa-plus"></i>
+            </div>
+            <span id="addShortcutSpan">Add shortcut</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <button id="customize" class="dropShadow">
+      <div class="customize-text">
+        <i class="fas fa-paint-brush"></i>
+        <span>Customize</span>
+      </div>
+    </button>
+    <!-- 
+      =========================================================
+      =========================================================
+                            Google Apps Modal Begin
+      =========================================================
+    -->
+    <div id="apps-modal-container" class="dropShadow">
+      <section id="apps-modal">
+        <ul id="apps-inner">
+          <li>
+            <a href=""
+              ><span id="modal-account-logo">r</span
+              ><span class="caption">Account</span></a
+            >
+          </li>
+          <li>
+            <a href="https://www.google.com/webhp?tab=rw"
+              ><img src="img/google_apps/googlesearch.png" alt="google search" /><span
+                class="caption"
+                >Search</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.google.com/business/?ppsrc=GPDA2&gmbsrc=ww-ww-ot-gs-z-gmb-l-z-h~z-ogb-u"
+              ><img src="img/google_apps/mybusiness.png" alt="google business" /><span
+                class="caption"
+                >My Business</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://www.google.com/maps?hl=en&tab=rl"
+              ><img src="img/google_apps/maps.png" alt="google maps" /><span
+                class="caption"
+                >Maps</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"
+              ><img src="img/google_apps/youtube.png" alt="YouTube" /><span
+                class="caption"
+                >YouTube</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://play.google.com/store?hl=en&tab=r8"
+              ><img src="img/google_apps/playstore.png" alt="Play Store" /><span
+                class="caption"
+                >Play</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://news.google.com/topstories?tab=rn&hl=en-US&gl=US&ceid=US:en"
+              ><img src="img/google_apps/news.png" alt="Google News" /><span
+                class="caption"
+                >News</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://mail.google.com/mail/u/0/#inbox"
+              ><img src="img/google_apps/gmail.png" alt="Gmail" /><span
+                class="caption"
+                >Gmail</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://meet.google.com/"
+              ><img src="img/google_apps/meet.png" alt="Google Meet" /><span
+                class="caption"
+                >Meet</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://mail.google.com/chat/u/0/#chat/welcome"
+              ><img src="img/google_apps/chat.png" alt="Google Chat" /><span
+                class="caption"
+                >Chat</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://contacts.google.com/?hl=en&tab=rC"
+              ><i id="contacts-link" class="fas fa-user-circle" alt="Google Contacts"></i
+              ><span class="caption">Contacts</span></a
+            >
+          </li>
+          <li>
+            <a href="https://drive.google.com/drive/"
+              ><img src="img/google_apps/drive.png" alt="Google Drive" /><span
+                class="caption"
+                >Drive</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://calendar.google.com/calendar/u/0/r"
+              ><img src="img/google_apps/calendar.png" alt="Google Calendar" /><span
+                class="caption"
+                >Calendar</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://translate.google.com/"
+              ><img src="img/google_apps/translate.png" alt="Googe Translate" /><span
+                class="caption"
+                >Translate</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://photos.google.com/u/0/"
+              ><img src="img/google_apps/photos.png" alt="Google Photos" /><span
+                class="caption"
+                >Photos</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://duo.google.com/"
+              ><img src="img/google_apps/duo.png" alt="Google Duo" /><span class="caption"
+                >Duo</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://shopping.google.com/"
+              ><img src="img/google_apps/shopping.png" alt="Google Shopping" /><span
+                class="caption"
+                >Shopping</span
+              ></a
+            >
+          </li>
+          <li></li>
+
+          <div class="line"></div>
+
+          <li>
+            <a href="https://www.google.com/finance/"
+              ><img src="img/google_apps/finance.svg" alt="Google Finance" /><span
+                class="caption"
+                >Finance</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://docs.google.com/document/u/0/"
+              ><img src="img/google_apps/docs.png" alt="Google Docs" /><span
+                class="caption"
+                >Docs</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://docs.google.com/spreadsheets/u/0/"
+              ><img src="img/google_apps/sheets.png" alt="Google Sheets" /><span
+                class="caption"
+                >Sheets</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://docs.google.com/presentation/u/0/"
+              ><img src="img/google_apps/slides.png" alt="Google Slides" /><span
+                class="caption"
+                >Slides</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://books.google.com/"
+              ><img src="img/google_apps/books.png" alt="Google Books" /><span
+                class="caption"
+                >Books</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.blogger.com/about/?bpli=1"
+              ><img src="img/google_apps/blogger.png" alt="Blogger.com" /><span
+                class="caption"
+                >Blogger</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://hangouts.google.com/"
+              ><img src="img/google_apps/hangouts.png" alt="Google Hangouts" /><span
+                class="caption"
+                >Hangouts</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://keep.google.com/"
+              ><img src="img/google_apps/keep.png" alt="Google Keep" /><span
+                class="caption"
+                >Keep</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://jamboard.google.com/"
+              ><img src="img/google_apps/jamboard.png" alt="Google Jamboard" /><span
+                class="caption"
+                >Jamboard</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://classroom.google.com/h"
+              ><img src="img/google_apps/classoom.png" alt="Google Classroom" /><span
+                class="caption"
+                >Classroom</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://earth.google.com/web/"
+              ><img src="img/google_apps/earth.png" alt="Google Earth" /><span
+                class="caption"
+                >Earth</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.google.com/save"
+              ><img src="img/google_apps/collections.svg" alt="Google Collections" /><span
+                class="caption"
+                >Collections</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://artsandculture.google.com/"
+              ><img src="img/google_apps/arts.png" alt="Google Arts and Culture" /><span
+                class="caption"
+                >Arts and Culture</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://ads.google.com/home/?pli=1#!/"
+              ><img src="img/google_apps/ads.png" alt="Google Ads" /><span class="caption"
+                >Google Ads</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://podcasts.google.com/"
+              ><img src="img/google_apps/podcasts.png" alt="Google Podcasts" /><span
+                class="caption"
+                >Podcasts</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://stadia.google.com/"
+              ><img src="img/google_apps/stadia.png" alt="Stadia" /><span
+                class="caption"
+                >Stadia</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://one.google.com/"
+              ><img src="img/google_apps/one.png" alt="Google One" /><span class="caption"
+                >Google One</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.google.com/travel/"
+              ><img src="img/google_apps/travel.svg" alt="Google Travel" /><span
+                class="caption"
+                >Travel</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://docs.google.com/forms/u/0/"
+              ><img src="img/google_apps/forms.png" alt="Google Forms" /><span
+                class="caption"
+                >Forms</span
+              ></a
+            >
+          </li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+    </div>
+    <!--END Google Apps Modal-->
+    <!-- 
+      =========================================================
+      =========================================================
+                            Google Account Modal Begin
+      =========================================================
+    -->
+    <section id="google-accounts-modal" class="dropShadow">
+      <div id="accounts-profile">
+        <div id="accounts-profile-top">
+          <div id="profile-img">
+            r
+          </div>
+          <i class="fas fa-camera" id="change-profile-picture"></i>
+        </div>
+        <!---->
+        <div id="accounts-profile-bottom">
+          <span>Ryan Venturino</span>
+          <span>ryan.venturino@gmail.com</span>
+          <a href="https://myaccount.google.com/" target="_blank">Manage Your Google Account</a>
+        </div>
+      </div>
+        <!---->
+        <div id="add-account-section">
+          <div id="add-account-inner">
+            <a href="#">
+              <i class="fas fa-user-plus"></i>
+              <span>Add Another Account</span>
+            </a>
+          </div>
+        </div>
+        <!---->
+        <div id="sign-out">
+          <button>Sign Out</button>
+        </div>
+        <!---->
+        <div id="policy">
+          <a href="https://policies.google.com/privacy?hl=en" target="_blank">Privacy Policy</a>
+          <i class="fas fa-circle"></i>
+          <a href="https://policies.google.com/terms?hl=en" target="_blank">Terms Of Service</a>
+        </div>
+    </section>
+    <!--END Google Account Modal-->
+    <!-- 
+      =========================================================
+      =========================================================
+                            Customizer Modal Begin
+      =========================================================
+    -->
+    <div id="customizer-underlay" class="">
+      <div id="customizer-modal">
+        <div id="heading">
+          <h4>Customize this page</h4>
+        </div>
+        <!--nav-->
+        <div id="middle">
+        <div id="navigation">
+          <ul>
+            <li>
+              <button id="backgrounds-button">
+                <i class="far fa-object-group"></i>
+                <span>Background</span>
+              </button>
+            </li>
+            <li>
+              <button id="shortcuts-button">
+                <i class="fas fa-paperclip"></i>
+                <span>Shortcuts</span>
+              </button>
+            </li>
+            <li>
+              <button id="colors-button">
+                <i class="fas fa-palette"></i>
+                <span>Color and theme</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <!--backgrounds menu-->
+        <div id="backgrounds">
+          <div class="grid-item" id="custom">
+            <div class="img-contianer">
+              <i class="fas fa-upload"></i>
+              <br>
+              <span>Upload from device</span>
+            </div>
+          </div>
+          <div class="grid-item" id="one">
+            <div class="img-contianer">
+            <img src="img/backgrounds/annie-spratt-3tlHKNAv1eE-unsplash.jpg" alt="">
+          </div>
+            <span class="label"></span>
+          </div>
+
+          <div class="grid-item" id="two">
+            <div class="img-contianer">
+            <img src="img/backgrounds/claudio-schwarz-purzlbaum-98hDglL83q0-unsplash.jpg" alt="">
+          </div>
+            <span class="label"></span>
+          </div>
+
+          <div class="grid-item" id="three">
+            <div class="img-contianer">
+            <img src="img/backgrounds/dustin-humes-P326A4p7aeE-unsplash.jpg" alt="">
+          </div>
+            <span class="label"></span>
+          </div>
+
+          <div class="grid-item" id="four">
+            <div class="img-contianer">
+            <img src="img/backgrounds/hermansyah-7uXn7nudorc-unsplash.jpg" alt="">
+          </div>
+            <span class="label"></span>
+          </div>
+          
+          <div class="grid-item" id="five">
+            <div class="img-contianer">
+            <img src="img/backgrounds/levi-stute-OhZd1t1Fm9M-unsplash.jpg" alt="">
+          </div>
+            <span class="label"></span>
+          </div>
+
+          <div class="grid-item" id="six">
+            <div class="img-contianer">
+            <img src="img/backgrounds/marek-piwnicki-gA2i_h4XRJU-unsplash.jpg" alt="">
+          </div>
+            <span class="label"></span>
+          </div>
+
+           <div class="grid-item" id="seven">
+            <div class="img-contianer">
+            <img src="img/backgrounds/silvan-schuppisser-PGU_XpT47iw-unsplash.jpg" alt="">
+          </div>
+            <span class="label"></span>
+          </div>
+          
+          <div class="grid-item" id="eight">
+            <div class="img-contianer">
+            <img src="img/backgrounds/adam-chang-IWenq-4JHqo-unsplash.jpg" alt="">
+          </div>
+            <span class="label"></span>
+          </div>
+        </div> <!--End bg menu-->
+        <!--shortcuts menu-->
+        <div id="shortcuts">
+          <!--
+          <img src="img/shortuts.png" alt="shortcuts">
+          -->
+
+          <div id="options">
+
+            <div id="myShortcuts-option" class="option">
+              <div class="img">
+                <i class="fas fa-user-check"></i>
+              </div>
+              <div class="description">
+                <h3>My Shortcuts</h3>
+                <p>Shortcuts are curated by you</p>
+              </div>
+            </div>
+
+            <div id="mostvisited-option" class="option">
+              <div class="img">
+                <i class="fas fa-globe-americas"></i>
+              </div>
+              <div class="description">
+                <h3>Most visited sites</h3>
+                <p>Shortcuts for the top 5 most popular websites on Alexa top sites </p>
+              </div>
+            </div>
+
+          </div>
+          
+          <div id="hide">
+            <div class="left">
+              <i class="fas fa-eye-slash"></i>
+              <h5>Hide Shortcuts</h5>
+          </div>
+          <div class="right">
+            <div class="container">
+              <label id="switch"><input type="checkbox" />    <div></div>
+              </label>
+            </div>
+          </div>
+        </div> <!--End shortcuts-->
+      
+        </div>
+        <!--color and theme-->
+        <div id="color">
+          <!--4 x 2 grid-->
+          <!--left: logo color right:bg-color-->
+          <div class="grid-item">
+            <div class="color-btn" id="default">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="dark">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="blue-sapphire">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="viridian-green">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="middle-blue-green">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="medium-champagne">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="gamboge">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="mahogany">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="rufous">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="yellow">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="ruby-red">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="color-btn" id="pink">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end customizer modal-->
+        <!--buttons -->
+        <div id="footer">
+          <div class="button-group">
+            <button id="done">Done</button>
+            <button id="cancel">Cancel</button>
+        </div>
+        </div>
+      </div>
+      <!--end of customizer-->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

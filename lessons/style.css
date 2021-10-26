@@ -1,0 +1,140 @@
+/* UTILITY */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url("../img/double-bubble-outline.png");
+}
+
+/*NAVIGATION*/
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2.5rem;
+}
+header h1 {
+  color: teal;
+  margin-top: 2rem;
+  font-style: bold;
+}
+button {
+  background-color: white;
+}
+button:hover {
+  background-color: teal;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  width: 25vw;
+}
+
+/*BODY*/
+
+h3 {
+  font-size: 4rem;
+}
+i {
+  font-size: 7rem;
+}
+
+.six {
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 10px 10px 4px #c1c1c1;
+  border: 1px solid #c1c1c1;
+  height: 510px;
+  padding: 3rem 3rem 3rem 3rem;
+  background-color: rgb(250, 250, 250);
+}
+
+#subjects {
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 10px 10px 4px #c1c1c1;
+  border: 1px solid #c1c1c1;
+
+  padding: 3rem 3rem 3rem 3rem;
+  background-color: rgb(250, 250, 250);
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  header nav ul {
+    width: 100%;
+  }
+  header nav ul li {
+    justify-content: space-around;
+  }
+  .six {
+    height: 100vh;
+  }
+}
+.text i:hover {
+  cursor: pointer;
+}
+.text i {
+  animation-name: wiggle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes wiggle {
+  0% {
+    transform: skewX(9deg);
+  }
+  10% {
+    transform: skewX(-8deg);
+  }
+  20% {
+    transform: skewX(7deg);
+  }
+  30% {
+    transform: skewX(-6deg);
+  }
+  40% {
+    transform: skewX(5deg);
+  }
+  50% {
+    transform: skewX(-4deg);
+  }
+  60% {
+    transform: skewX(3deg);
+  }
+  70% {
+    transform: skewX(-2deg);
+  }
+  80% {
+    transform: skewX(1deg);
+  }
+  90% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}

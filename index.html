@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3f036a4888.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Ryan Venturino</title>
+  </head>
+  <body>
+    <!-- HERO / INTRODUCTION SECTION -->
+      <div id="description">
+        <div id="content">
+          <h1>Ryan Venturino</h1>
+          <h3>
+            Aspiring front end web developer
+          </h3>
+          <div class="buttons">
+            <!-- 
+            <button id="lessons" onclick="location.href=`lessons/index.html`">
+              Lessons
+            </button>
+            -->
+            <button
+              onclick="location.href=`#portfolio`"
+              type="button"
+            >
+              Portfolio
+            </button>
+          </div>
+          <ul>
+            <li>
+              <a href="https://github.com/rventurino" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ryan-venturino-164a33b5/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="mailto:ryan.venturino@gmail.com"
+                ><i class="far fa-envelope"></i
+              ></a>
+            </li>
+            <li>
+              <i class="fab fa-discord" onclick="copyContact()"></i>
+
+              <input
+                type="text"
+                value="flarble#5658"
+                id="contactMe"
+                onclick="copyContact()"
+                style="opacity: 0; position: absolute"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+    <!-- END HERO / INTRO SECTION -->
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+      <!-- Car Shop -->
+      <div class="item">
+        <div class="item_image">
+          <img src="img/carshop.png" alt="Car shop">
+        </div>
+        <div class="item_description">
+          <h2>Max Automotive</h2>
+          <p>
+            A landing page for a fictional automotive shop. Technologies used
+            include HTML, CSS, JavaScript, and Google Maps API.
+
+          </p>
+          <ul>
+            <li>
+              <button
+              onclick=" window.open('max-automotive/index.html','_blank')"
+              type="button"
+              >Live Demo</button>
+            </li>
+            <li>
+              <button class="git"
+              onclick=" window.open('https\://github.com/rventurino/auto-repair-shop','_blank')"
+              type="button"
+              >GitHub</button>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!--Google page-->
+      <div class="item">
+        <div class="item_image">
+          <img src="img/googlePage.png" alt="Car shop">
+        </div>
+        <div class="item_description">
+          <h2>Google Clone</h2>
+          <p>Fully customizable clone of Google's landing page. 
+            Includes ability to change font, background color, and background image. Images sourced
+            from Unsplash. Search feature in progress. Technologies used include HTML, CSS, and JavaScript.
+          </p>
+          <ul>
+            <li>
+              <button
+              onclick=" window.open('google_landing_page-main/index.html','_blank')"
+              type="button"
+              >Live Demo</button>
+            </li>
+            <li>
+              <button class="git"
+              onclick=" window.open('https\://github.com/rventurino/google_landing_page','_blank')"
+              type="button"
+              >GitHub</button>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!--Bubly-->
+      <div class="item">
+        <div class="item_image">
+          <img src="img/bubly.png" alt="Car shop">
+        </div>
+        <div class="item_description">
+          <h2>Bubly Landing Page</h2>
+          <p>A copy of the home page for my favorite soda, Bubly. Made using HTML, Sass, YouTube API and Javascript.</p>
+          <ul>
+            <li>
+              <button
+              onclick=" window.open('bublyCopy/index.html','_blank')"
+              type="button"
+              >Live Demo</button>
+            </li>
+            <li>
+              <button class="git" 
+              onclick=" window.open('https\://github.com/rventurino/bubly_copy','_blank')"
+              type="button"
+              >GitHub</button>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!--STATS-->
+      <div class="item">
+        <div class="item_image">
+          <img src="img/stats.png" alt="Car shop">
+        </div>
+        <div class="item_description">
+          <h2>Baseball Salary Frequency Distribution</h2>
+          <p>Basic data visualization of a statistics assignment I did at Point Park University.
+             Technologies used include HTML, CSS, Javascript, accounting.js API, and the chart.js API.
+          </p>
+          <ul>
+            <li>
+              <button
+              onclick=" window.open('homeworkP2/index.html','_blank')"
+              type="button"
+              >Live Demo</button>
+            </li>
+            <li>
+              <button class="git"
+              onclick=" window.open('https\://github.com/rventurino/Statistics175','_blank')"
+              type="button"
+              >GitHub</button>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!--CALCULATOR-->
+      <div class="item">
+        <div class="item_image">
+          <img src="img/calc.png" alt="Car shop">
+        </div>
+        <div class="item_description">
+          <h2>Calculator</h2>
+          <p>
+            A simple calculator built using HTML, CSS, and Javascript
+          </p>
+          <ul>
+            <li>
+              <button
+              onclick=" window.open('Calculator/index.html','_blank')"
+              type="button"
+              >Live Demo</button>
+            </li>
+            <li>
+              <button class="git"
+              onclick=" window.open('https\://github.com/rventurino/calculator','_blank')"
+              type="button"
+              >GitHub</button>
+              
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

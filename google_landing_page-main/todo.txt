@@ -1,0 +1,13 @@
+make customizer nav items blue when active
+add shortcuts button modal
+add functionality to shortcuts customizer submenu
+make search bar work
+upload custom background from user device
+
+
+BUGS:
+
+1:
+When a flat color is selected as BG the state for 
+header nav and add shortcuts button are not being
+saved. They just revert to default on refresh.

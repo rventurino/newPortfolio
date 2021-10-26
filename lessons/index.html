@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/3f036a4888.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Lessons | R</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lessons</h1>
+      <nav>
+        <ul>
+          <li><button id="home">Home</button></li>
+          <li><button id="portfolio">Portfolio</button></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container contact">
+
+      <h3 id="subjects" style="text-align: center;">Subjects</h3>
+      
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="six columns one">
+        <div class="title">
+          <i class="fab fa-html5" style="color: orange"></i>
+          <h3>HTML5</h3>
+          <p>
+            Hypertext Markup Language (HTML) is the standard markup language for
+            documents designed to be displayed in a web browser.
+          </p>
+        </div>
+        <p><strong>I can teach you: </strong></p>
+        <ul>
+          <li>HTML Elements, Attributes, and basic properties</li>
+          <li>Page layout and formatting</li>
+          <li>Introduction to HTML styling</li>
+        </ul>
+      </div>
+
+      <div class="six columns two">
+        <div class="title">
+          <i class="fab fa-css3-alt" style="color: #4666ff"></i>
+          <h3>CSS3</h3>
+        </div>
+        <p>
+          Cascading Style Sheets (CSS) is a style sheet language used for
+          describing the presentation of a document written in a markup language
+          such as HTML. CSS is a cornerstone technology of the World Wide Web,
+          alongside HTML and JavaScript.
+        </p>
+        <p><strong>I can teach you: </strong></p>
+      
+      
+        <ul>
+          <li>Basic Syntax, Selectors, and examples</li>
+          <li>
+            Use HTML and CSS to build components
+          </li>
+          <li>CSS Grid, flex-box, and animations</li>
+        </ul>
+      </div>
+      </div>
+      <div class="row">
+      <div class="six columns three">
+        <div class="title">
+          <i class="fab fa-js-square" style="color: #f7df1e"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <p>
+          Alongside HTML and CSS, JavaScript is one of the core technologies of
+          the World Wide Web. JavaScript enables interactive web pages and is an
+          essential part of web applications. The vast majority of websites use
+          it for client-side page behavior, and all major web browsers have a
+          dedicated JavaScript engine to execute it.
+        </p>
+        <p><strong>I can teach you: </strong></p>
+        <ul>
+          <li>Programming fundamentals</li>
+          <li>How to incorporate JavaScript in to your web pages</li>
+          <li>Basic Data Structures and Algorithms</li>
+        </ul>
+      </div>
+      <div class="six columns four">
+        <div class="title">
+          <i class="fab fa-java" style="color: #800020"></i>
+          <h3>Java</h3>
+        </div>
+        <p>
+          Java is a general-purpose programming language intended to let
+          application developers write once, run anywhere (WORA), meaning that
+          compiled Java code can run on all platforms that support Java without
+          the need for recompilation.
+        </p>
+        <p><strong>I can teach you: </strong></p>
+        <ul>
+          <li>Classes, methods, loops, arrays, and other fundamentals</li>
+          <li>Basic Data Structures and Algorithms</li>
+          <li>Exception handling and text I/O</li>
+        </ul>
+      </div>
+    </div>
+    <script>
+        let home = document.getElementById("home");
+        let portfolio = document.getElementById("portfolio");
+
+
+        home.addEventListener("click", () => {
+          location.href = "../index.html";
+        });
+
+        portfolio.addEventListener("click", () => {
+          location.href = "../portfolio.html";
+        });
+    </script>
+    <div class="buttons">
+      
+      <div class="text">
+        
+        <br>
+        <p>
+          Get in touch: 
+        </p>
+        
+        
+          <i class="fab fa-discord" onclick="copyContact()"></i>
+          <p id="c2c"><em>Click to copy</em></p>
+       
+        <input type="text" value="flarble#5658" id="contactMe" onclick="copyContact()" style="opacity: 0;">
+      </div>
+    </div>
+    <script src="lessons.js"></script>
+  </body>
+</html>
